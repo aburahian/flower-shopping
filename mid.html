@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Table</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin-left: 500px;
+        margin-top: 100px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      #container {
+        border-collapse: collapse;
+        text-align: center;
+        font-style: bold;
+        width: 400px;
+        height: 300px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      #row1 {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="container">
+      <tr id="row1">
+        <td>Covid-19</td>
+        <td>Covid-19</td>
+        <td colspan="2">Covid-19</td>
+      </tr>
+      <tr id="row2">
+        <td rowspan="4">Stay Home</td>
+        <td colspan="3">
+          Go outside wearing mask
+        </td>
+      </tr>
+      <tr id="row3">
+        <td>Maintain a safe distance</td>
+        <td>Don't be upset</td>
+        <td>Think positive</td>
+      </tr>
+      <tr id="row4">
+        <td>Don't touch your nose</td>
+        <td rowspan="2">
+          Don't tuch your eyes
+        </td>
+        <td>Clean your hands often</td>
+      </tr>
+      <tr id="row5">
+        <td>Don't touch your mouth</td>
+        <td>Pray to Almighty</td>
+      </tr>
+    </table>
+  </body>
+</html>
